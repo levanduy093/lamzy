@@ -28,6 +28,11 @@ html {
 .top-header {
     background-color: var(--black-color);
     height: 34px;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 2;
 }
 
 .top-header-text {
@@ -41,6 +46,11 @@ html {
 
 .header {
     background-color: var(--background-color);
+    position: fixed;
+    top: 34px;
+    right: 0;
+    left: 0;
+    z-index: 2;
 }
 
 .header-contain {
@@ -88,6 +98,10 @@ html {
     justify-content: space-between;
     align-items: center;
     border-bottom: 1px solid var(--gray-color);
+    top: 107px;
+    position: absolute;
+    left: 0;
+    right: 0;
 }
 
 .subheader-link {
@@ -96,4 +110,8 @@ html {
     font-size: 14px;
     font-weight: 200;
     padding: 13px 15px;
+}
+
+.slider {
+    height: 1000px;
 }
