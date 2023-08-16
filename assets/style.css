@@ -1,0 +1,99 @@
+:root {
+    --primary-color: #5021FF;
+    --white-color: #fff;
+    --black-color: #000;
+    --text-color: #333;
+    --background-color: #FFFFFF;
+    --orange-color: #EF8D4B;
+    --green-color: #4BB6A4;
+    --red-color: #D13B59;
+    --blue-color: #2F78F6;
+    --violet-color: #AB78DF;
+    --gray-color: #D4D4D4;
+    --header-height: 58px;
+}
+
+* {
+    box-sizing: inherit;
+    padding: 0;
+}
+
+html {
+    line-height: 1.6rem;
+    font-family: 'Be Vietnam Pro', sans-serif;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+.top-header {
+    background-color: var(--black-color);
+    height: 34px;
+}
+
+.top-header-text {
+    color: var(--white-color);
+    text-align: center;
+    line-height: 34px;
+    letter-spacing: 1px;
+    font-weight: 300;
+    font-size: 14px;
+}
+
+.header {
+    background-color: var(--background-color);
+}
+
+.header-contain {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    width: 100%;
+    padding: 20px 0;
+    border-bottom: 1px solid var(--gray-color);
+}
+
+.logo-con {
+    width: 33.3333333333%;
+    text-align: center;
+}
+
+.header-nav {
+    width: 33.3333333333%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.header-nav * {
+    padding: 0 22px;
+}
+
+.product-fav-link {
+    text-decoration: none;
+    color: var(--text-color);
+    opacity: 0.6;
+    font-size: 14px;
+    font-weight: 300;
+}
+
+.icon-item {
+    width: 18px;
+    height: 18px;
+    color: var(--black-color);
+    opacity: 0.65;
+}
+
+.subheader {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid var(--gray-color);
+}
+
+.subheader-link {
+    text-decoration: none;
+    color: var(--text-color);
+    font-size: 14px;
+    font-weight: 200;
+    padding: 13px 15px;
+}
